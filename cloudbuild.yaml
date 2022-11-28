@@ -14,6 +14,8 @@
 
 # [START cloudbuild]
 steps:
+- Build
+- Push
 # This step runs the unit tests on the app
 
 # This step builds the container image.
